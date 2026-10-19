@@ -43,3 +43,11 @@ Upload the whole folder to GitHub Pages, Netlify, or an Apache document root (fo
 - On a normal host, blog likes are saved per browser (localStorage). Shared likes and comments need a backend.
 - Blog uploads are switched off (`UPLOAD_ON=false` in `main.js`) until a backend is added.
 - Fonts load from Google Fonts, so they need an internet connection.
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/Shubham23Suryavanshi/ShubhamSuryavanshi
+git push -u origin main
