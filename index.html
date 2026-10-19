@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shubham Suryavanshi | PHP Developer &amp; Cloud Engineer</title>
+<meta name="description" content="PHP developer and cloud trainer in Bhopal building ERP modules, web apps and AWS deployments.">
+<meta name="keywords" content="Shubham Kumar Suryavanshi, portfolio, Shubham, Cloud Computing, personal portfolio Tech, portfolio design, portfolio website, personal portfolio" />
+<meta name="description" content="Welcome to Shubham's Portfolio. Full-Stack Web Developer and Android App Developer" />
+<link rel="icon" type="image/png" href="assets/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div id='pre' role='status'><div class='pbox'><span id='pt'>Booting portfolio</span><div class='pb'><i id='pf'></i></div><b id='pp'>0%</b></div></div>
+<header><div class="wrap">
+<a class="brand" href="#top">Shubham Suryavanshi</a>
+<nav><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#blog">Blog</a><a href="#skills">Skills</a><a href="#education">Education</a><a class="keep" href="#contact">Contact</a></nav>
+<button class="ico" id="theme" aria-label="Toggle light or dark theme">◐</button>
+</div></header>
+
+<main class="wrap" id="top">
+<div class="hero"><canvas id="net" aria-hidden="true"></canvas>
+<div>
+<h1 id="nm">Shubham Kumar Suryavanshi</h1><p class="role">Building <span id="rot"></span><i class="cur"></i></p>
+<p class="lead">PHP developer who also runs the servers. I build ERP modules and web apps, then deploy and secure them on Linux, Apache and AWS.</p>
+<a class="btn p" href="#projects">See my projects</a>
+<a class="btn" href="https://drive.google.com/file/d/1I9pDtzbGoUKl1cPVSnkenmDWmlB3tL4B/view?usp=sharing" target="_blank" rel="noopener">Download resume</a>
+</div>
+<div class="term" aria-label="Interactive terminal about Shubham">
+<div class="tbar"><i></i><i></i><i></i></div>
+<div id="out" aria-live="polite"></div>
+<div class="prompt"><span>$</span><input id="cmd" aria-label="Type a command" placeholder="type help and press Enter" autocomplete="off" spellcheck="false"></div>
+<div class="chips" id="chips"></div>
+</div>
+</div>
+
+<div class="stats"><div><b data-n="3">0</b><span>Roles held</span></div><div><b data-n="5">0</b><span>Projects built</span></div><div><b data-n="4">0</b><span>Certifications</span></div><div><b data-n="2">0</b><span>Degrees in tech</span></div></div>
+<div class="mq" aria-hidden="true"><div class="mt" id="mt"></div></div>
+<section id="experience">
+<h2>Experience</h2><p class="sub">From cloud internships to building and teaching the systems colleges run on.</p>
+<div class="tl">
+<div class="job"><h3>Cloud &amp; Virtualization Trainer</h3><div class="when">i-Nurture Education Solutions, Bhopal · Aug 2024 to present</div><ul><li>Teach Linux administration, Windows Server and networking in hands-on labs.</li><li>Build and maintain ERP modules and web apps for academic operations.</li><li>Guide MCA students on network security, server hardening and cloud deployment.</li></ul></div>
+<div class="job"><h3>IT Administrator (Freelance)</h3><div class="when">FitBliss By SK, RKDF Group, Bhopal · May 2024 to Aug 2024</div><ul><li>Managed servers, routers, switches and firewalls end to end.</li><li>Ran patching, backup and recovery, and administered the CRM.</li><li>Gave Tier-1 support and fixed hardware and software issues on Windows.</li></ul></div>
+<div class="job"><h3>AWS Administrator (Intern)</h3><div class="when">Nuevera Infotech, Remote · Aug 2023 to Feb 2024</div><ul><li>Configured Linux and Windows servers on AWS.</li><li>Secured Apache and IIS with firewall rules; set up load balancing and Auto Scaling.</li><li>Supported monitoring, troubleshooting and performance tuning.</li></ul></div>
+</div></section>
+
+<section id="projects">
+<h2>Projects</h2><p class="sub">Select a card to read what I built and how.</p>
+<div class="tabs" id="tabs" role="group" aria-label="Filter projects"></div>
+<div class="grid" id="grid"></div>
+</section>
+
+<section id="blog">
+<h2>Blog quest board</h2><p class="sub">Read a post, answer the boss question, earn XP. Clear all three quests to reach Cloud Architect.</p><div class="hud" id="hud"></div>
+<div class="tools"><input id="q" type="search" placeholder="Search posts" aria-label="Search posts"><div class="tabs" id="btabs" role="group" aria-label="Filter posts by topic"></div></div>
+<div class="grid" id="bgrid"></div><p class="sub" id="none" hidden>No posts match. Try another word or topic.</p>
+<details class="adm" id="adm" hidden><summary>Add a new post (editors only)</summary><form id="af">
+<input id="at" placeholder="Title" aria-label="Title" required><input id="ag" placeholder="Topic, for example PHP" aria-label="Topic"><input id="ax" placeholder="One-line summary" aria-label="Summary" required>
+<textarea id="ab" rows="8" placeholder="Post body. Leave a blank line between paragraphs. Wrap code in ``` lines." aria-label="Body" required></textarea>
+<input id="axp" type="number" min="10" max="500" placeholder="XP reward (default 100)" aria-label="XP reward"><select id="as" aria-label="Difficulty"><option value="1">Difficulty: 1 star</option><option value="2">Difficulty: 2 stars</option><option value="3">Difficulty: 3 stars</option></select>
+<input id="aq" placeholder="Quiz question (optional)" aria-label="Quiz question"><input id="ao1" placeholder="Option 1" aria-label="Option 1"><input id="ao2" placeholder="Option 2" aria-label="Option 2"><input id="ao3" placeholder="Option 3" aria-label="Option 3">
+<select id="aa" aria-label="Correct option"><option value="1">Correct: option 1</option><option value="2">Correct: option 2</option><option value="3">Correct: option 3</option></select>
+<div><button class="btn p" type="submit">Publish post</button> <span class="meta" id="am" style="display:inline"></span></div></form></details>
+<dialog id="dlg" aria-label="Blog post"></dialog>
+</section>
+<section id="skills">
+<h2>Skills</h2><p class="sub">Application code on top, infrastructure underneath.</p>
+<div class="sk" id="sk"></div>
+</section>
+
+<section id="education">
+<h2>Education and certifications</h2><p class="sub">&nbsp;</p>
+<div class="two">
+<div><h3>Education</h3>
+<p>M.Tech, Data Science<small>Sage University Bhopal · expected Aug 2027</small></p>
+<p>MCA, Cloud Computing<small>Sage University Bhopal · Aug 2023</small></p></div>
+<div><h3>Certifications</h3>
+<p>Oracle Cloud Infrastructure Certified Foundations Associate<small>Oracle</small></p>
+<p>AWS Academy Cloud Foundations<small>Amazon Web Services</small></p>
+<p>Introduction to Cybersecurity<small>Cisco Networking Academy</small></p>
+<p>Google Chronicle SIEM Foundation<small>Google Cloud</small></p></div>
+</div></section>
+
+<section id="contact">
+<h2>Let’s work together</h2><p class="sub">Open to PHP, ERP and cloud roles. Send a note and it opens in your email app, ready to send.</p>
+<form id="f">
+<div><label for="n">Your name</label><input id="n" required></div>
+<div><label for="m">Message</label><textarea id="m" rows="5" required></textarea></div>
+<div><button class="btn p" type="submit">Write email</button></div>
+</form>
+<p class="sub" style="margin-top:24px"><a href="mailto:shubham23022001@gmail.com">shubham23022001@gmail.com</a> · <a href="tel:+917000925966">+91 70009 25966</a> · <a href="https://www.linkedin.com/in/suryavanshi-shubham" target="_blank" rel="noopener">LinkedIn</a></p>
+</section>
+</main>
+<footer><div class="wrap">© 2026 Shubham Kumar Suryavanshi · Bhopal, India</div></footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
